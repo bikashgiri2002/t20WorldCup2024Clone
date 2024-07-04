@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>T20 World Cup 2024</title>
-    <link rel="stylesheet" href="cssFile/home.css">
-</head>
-<body>
+    <link rel="stylesheet" href="cssFile/home.css" />
+  </head>
+  <body>
     <header>
-        <h1>T20 World Cup 2024</h1>
+      <i class="fa-solid fa-bars" style="color: #ebeef5;"></i>
+      <i class="fa-regular fa-user" style="color: #e8eaed;"></i>
     </header>
+    <div class="nav">
+      <button class="option" onclick="location.href = 'matches.html' ">
+        <a href="matches.html">Matches</a>
+      </button>
+      <button class="option" onclick="location.href = 'Table.html' ">
+        <a href="Table.html">Tables</a>
+      </button>
+      <button class="option" onclick="location.href = '' ">
+        <a href="">Stats</a>
+      </button>
+      <button class="option" onclick="location.href = 'Team.html' ">
+        <a href="Team.html">Teams</a>
+      </button>
+    </div>
     <main>
-        <div class="nav">
-            <button class="option" onclick="location.href = 'matches.html' "><a href="matches.html">Matches</a></button>
-            <button class="option" onclick="location.href = '' "><a href="">Tables</a></button>
-            <button class="option" onclick="location.href = '' "><a href="">Stats</a></button>
-            <button class="option" onclick="location.href = 'Team.html' "><a href="Team.html">Teams</a></button>
+      <div class="article">
+        <div class="winner">
+          <p>
+            
+          </p>
         </div>
         <div class="score">
-            <div class="final result">
-                <h4>Final <small> ( 29-06-2024 ) </small></h4>
-              <div class="matchesDiv">
-                                    <img src="" alt="" class="icon icons">
-                                    <span> <b>Ind</b> <br> <small>Virat 80 <br> Rohit 60</small> <br><Small>Bumra 14/3</Small></span>
-                                    <span> <b>Ind</b> <br> <small>Virat 80 <br> Rohit 60</small> <br><Small>Bumra 14/3</Small></span>
-                <img src="" alt="" class="icon2 icons">
-                </div>
-
+          <div class="final result">
+            <h4>Final <small> ( 29-06-2024 ) </small></h4>
+            <div class="matchesDiv">
+              <img src="image/India flag.jpg" alt="" class="icon icons" />
+              <span>
+                <b>Ind</b> <br />
+                <small
+                  >Virat 80 <br />
+                  Rohit 60</small
+                >
+                <br /><small>Bumra 14/3</small></span
+              >
+              <span>
+                <b>S.A</b> <br />
+                <small
+                  >Virat 80 <br />
+                  Rohit 60</small
+                >
+                <br /><small>Bumra 14/3</small></span
+              >
+              <img
+                src="image/South Africa flag.jpg"
+                alt=""
+                class="icon2 icons"
+              />
             </div>
-            <div class="semifinal2 result">
-                <h4>Semi Final 2 <small> ( 29-06-2024 ) </small></h4>
-                <div class="matchesDiv">
-                                    <img src="" alt="" class="icon icons">
-                                    <span> <b>Ind</b> <br> <small>Virat 80 <br> Rohit 60</small> <br><Small>Bumra 14/3</Small></span>
-                                    <span> <b>Ind</b> <br> <small>Virat 80 <br> Rohit 60</small> <br><Small>Bumra 14/3</Small></span>
-                <img src="" alt="" class="icon2 icons">
-                </div>
-
-            </div>
-            <div class="semifinal1 result">
-                <h4>Semi Final 1 <small> ( 29-06-2024 ) </small></h4>
-                <div class="matchesDiv">
-                                    <img src="" alt="" class="icon icons">
-                                    <span> <b>Ind</b> <br> <small>Virat 80 <br> Rohit 60</small> <br><Small>Bumra 14/3</Small></span>
-                                    <span> <b>Ind</b> <br> <small>Virat 80 <br> Rohit 60</small> <br><Small>Bumra 14/3</Small></span>
-                <img src="" alt="" class="icon2 icons">
-                </div>
-
-            </div>
+          </div>
         </div>
+      </div>
     </main>
     <footer>
-        <p>
-            terms and conditions... <br>
-            contact us. <br>
-            t20worldcup@score.com
-        </p>
+      <p>
+        terms and conditions... <br />
+        contact us. <br />
+        t20worldcup@score.com
+      </p>
     </footer>
-</body>
+  </body>
 </html>

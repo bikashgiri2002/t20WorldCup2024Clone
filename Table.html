@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(image/bg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        }
+        .container {
+            background-color: rgb(52, 52, 245);
+            margin: 5px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            position: sticky;
+            top: 0px;
+        }
+        a{
+            height: 8px;
+            width: 400px;
+            background-color: plum;
+            display: flex;
+            flex-direction: row;
+            margin: 5px;
+            padding: 15px;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px rgb(123, 118, 118);
+            text-decoration: none;
+        }
+        th,td{
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px rgb(123, 118, 118);
+            border: 1px solid gray;
+            height: 50px;
+            width: 70%;
+            margin: 2px;
+            padding: 3px;
+            text-align: center;
+            background-color: rgb(224, 212, 198);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        img{
+            height: 15px;
+            width: 20px;
+        }
+        table{
+            margin-bottom: 20px;
+            height: 20px;
+            width: 100%;
+            margin: 10px;
+            padding: 20px 200px 20px 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">  
+
+    <a href="#Super-Eight">Super Eight</a>
+
+    <a href="#Group-Stage">Group Stage</a>
+
+</div>    
+
+    <section id="Super-Eight">
+
+    <table>
+
+        <tr>
+            <th>GROUP 1</th>
+            <th>MATCHES</th>
+            <th>WON</th>
+            <th>LOST</th>
+            <th>PTS</th>
+            <th>NRR</th>
+        </tr>
+
+        <tr>
+            <td><img src="image/India flag.jpg" alt="India" /> India</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>6</td>
+            <td>+2.017</td>
+        </tr>
+
+        <tr>
+            <td><img src="image/Afghanistan_Flag.jpg" alt="Afghanistan" /> Afghanistan</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>4</td>
+            <td>-0.305</td>
+        </tr>
+
+        <tr>
+            <td><img src="image/Australia flag.jpg" alt="Australia" /> Australia</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>-0.331</td>
+        </tr>
+
+        <tr>
+            <td><img src="image/Bangladesh flag.jpg" alt="Bangladesh" /> Bangladesh</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>-1.709</td>
+        </tr>
+
+    </table>
+
+
+    <table>
+        <tr>
+            <th>GROUP 2</th>
+            <th>MATCHES</th>
+            <th>WON</th>
+            <th>LOST</th>
+            <th>PTS</th>
+            <th>NRR</th>
+        </tr>
+        <tr>
+            <td><img src="image/South Africa flag.jpg" alt="South Africa" /> South Africa</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>6</td>
+            <td>+0.599</td>
+        </tr>
+        <tr>
+            <td><img src="image/England flag.jpg" alt="England" /> England</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>4</td>
+            <td>+1.992</td>
+        </tr>
+        <tr>
+            <td><img src="image/West Indies flag.png" alt="West Indies" /> West Indies</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>+0.963</td>
+        </tr>
+        <tr>
+            <td><img
+                src="image/United states of America.png"
+                alt="United states of America"/> USA</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>-3.906</td>
+        </tr>
+    </table>
+        
+    </section>
+
+
+    <section id="Group-Stage">
+
+        <table>
+            <tr>
+                <th>A</th>
+                <th>MATCHES</th>
+                <th>WON</th>
+                <th>LOST</th>
+                <th>PTS</th>
+                <th>NRR</th>
+            </tr>
+            <tr>
+                <td><img src="image/India flag.jpg" alt="India" /> India</td>
+                <td>4</td>
+                <td>3</td>
+                <td>0</td>
+                <td>7</td>
+                <td>+1.137</td>
+            </tr>
+            <tr>
+                <td><img
+                    src="image/United states of America.png"
+                    alt="United states of America"/> USA</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>5</td>
+                <td>+0.127</td>
+            </tr>
+            <tr>
+                <td><img src="image/Pakistan flag.jpg" alt="Pakistan" /> Pakistan</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>4</td>
+                <td>+0.294</td>
+            </tr>
+            <tr>
+                <td><img src="image/Canada flag.jpg" alt="Canada" /> Canada</td>
+                <td>4</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>-0.493</td>
+            </tr>
+            <tr>
+                <td><img src="image/Ireland flag.jpg" alt="Ireland" /> Ireland</td>
+                <td>4</td>
+                <td>0</td>
+                <td>3</td>
+                <td>1</td>
+                <td>-1.293</td>
+            </tr>
+        </table>
+
+
+        <table>
+            <tr>
+                <th>B</th>
+                <th>MATCHES</th>
+                <th>WON</th>
+                <th>LOST</th>
+                <th>PTS</th>
+                <th>NRR</th>
+            </tr>
+            <tr>
+                <td><img src="image/Australia flag.jpg" alt="Australia" /> Australia</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>8</td>
+                <td>+2.791</td>
+            </tr>
+            <tr>
+                <td><img src="image/England flag.jpg" alt="England" /> England</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>5</td>
+                <td>+3.611</td>
+            </tr>
+            <tr>
+                <td><img src="image/Scotland flag.png" alt="Scotland" /> Scotland</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>5</td>
+                <td>+1.255</td>
+            </tr>
+            <tr>
+                <td><img src="image/Namibia-flag.jpg" alt="Namibia" /> Namibia</td>
+                <td>4</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>-2.585</td>
+            </tr>
+            <tr>
+                <td><img src="image/Oman-Flag.png" alt="Oman" /> Oman</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td>-3.062</td>
+            </tr>
+        </table>
+
+
+        <table>
+            <tr>
+                <th>C</th>
+                <th>MATCHES</th>
+                <th>WON</th>
+                <th>LOST</th>
+                <th>PTS</th>
+                <th>NRR</th>
+            </tr>
+            <tr>
+                <td><img src="image/West Indies flag.png" alt="West Indies" /> West Indies</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>8</td>
+                <td>+3.257</td>
+            </tr>
+            <tr>
+                <td><img src="image/Afghanistan_Flag.jpg" alt="Afghanistan" /> Afghanistan</td>
+                <td>4</td>
+                <td>3</td>
+                <td>1</td>
+                <td>6</td>
+                <td>+1.835</td>
+            </tr>
+            <tr>
+                <td><img src="image/New zealand flag.png" alt="New zealand" /> New zealand</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>4</td>
+                <td>+0.415</td>
+            </tr>
+            <tr>
+                <td><img src="image/Uganda-Flag.png" alt="Uganda" /> Uganda</td>
+                <td>4</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>-4.510</td>
+            </tr>
+            <tr>
+                <td><img src="image/Papua New Guinea flag.jpg" alt="Papua New Guinea"> Papua New Guinea</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td>-1.268</td>
+            </tr>
+        </table>
+
+
+        <table>
+            <tr>
+                <th>D</th>
+                <th>MATCHES</th>
+                <th>WON</th>
+                <th>LOST</th>
+                <th>PTS</th>
+                <th>NRR</th>
+            </tr>
+            <tr>
+                <td><img src="image/South Africa flag.jpg" alt="South Africa" /> South Africa</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>8</td>
+                <td>+0.470</td>
+            </tr>
+            <tr>
+                <td> <img src="image/Bangladesh flag.jpg" alt="Bangladesh" /> Bangladesh</td>
+                <td>4</td>
+                <td>3</td>
+                <td>1</td>
+                <td>6</td>
+                <td>+0.616</td>
+            </tr>
+            <tr>
+                <td><img src="image/Srilanka flag.jpg" alt="Srilanka" /> Srilanka</td>
+                <td>4</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>+0.863</td>
+            </tr>
+            <tr>
+                <td><img src="image/Netherlands flag.jpg" alt="Netherlands" /> Netherlands</td>
+                <td>4</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>-1.358</td>
+            </tr>
+            <tr>
+                <td><img src="image/Flag_of_Nepal.png" alt="Nepal" /> Nepal</td>
+                <td>4</td>
+                <td>0</td>
+                <td>3</td>
+                <td>1</td>
+                <td>-0.542</td>
+            </tr>
+        </table>
+
+    </section>
+    
+    
+</body>
+</html>
